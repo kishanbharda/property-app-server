@@ -20,7 +20,7 @@ try {
 }
 
 app.get("/", (req, res) => {
-  res.send("<h1>Hello World</h1>");
+  res.send("Welcome to the property management server");
 });
 
 app.use("/api", PropertyRoute);
